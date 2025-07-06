@@ -10,20 +10,20 @@ A minimal Express 5 application demonstrating:
 
 # 🔒 Environment Variables
 
-PORT=3000
-MONGODB_URI=your_mongo_connection_string
-SESSION_SECRET=some_secure_secret
+PORT=3000 <br/>
+MONGODB_URI=your_mongo_connection_string <br/>
+SESSION_SECRET=some_secure_secret <br/>
 
 # 🛠️ Tech Stack
 
 Express 5
 
-Mongoose for MongoDB ODM
-Passport.js (Local strategy)
-express-session + connect-mongo for session persistence
-dotenv for config
-express-validator for request validation
-nodemon for development hot reload
+-   Mongoose for MongoDB ODM <br/>
+-   Passport.js (Local strategy) <br/>
+-   express-session + connect-mongo for session persistence <br/>
+-   dotenv for config <br/>
+-   express-validator for request validation <br/>
+-   nodemon for development hot reload <br/>
 
 # 🚀 Getting Started
 
