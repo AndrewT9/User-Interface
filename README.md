@@ -27,17 +27,21 @@ nodemon for development hot reload
 
 # 🚀 Getting Started
 
-bash```
+```bash
 git clone https://github.com/AndrewT9/User-Interface.git
+```
 
-bash```
+```bash
 npm install
+```
 
-bash```
+```bash
 cp .env.example .env
+```
 
-bash```
+```bash
 npm run start:dev
+```
 
 Listens on http://localhost:${PORT} by default.
 
@@ -45,11 +49,8 @@ Listens on http://localhost:${PORT} by default.
 
 Make sure to include a .env file (never commit it!) containing:
 
-bash```
+```bash
 PORT=3000
 MONGODB_URI=your_mongo_connection_string
-SESSION_SECRET=some_secure_secret
-
-```
-
+JWT_SECRET=some_secure_secret
 ```
