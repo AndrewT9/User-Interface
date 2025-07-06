@@ -1,24 +1,12 @@
 # NodeJs Blog & Admin Panel
 
 A simple content‐driven blog platform built with Node.js, Express and MongoDB, featuring:
-
-  - Responsive homepage showcasing a hero banner and a list of latest posts  
-  - “Home” and “About” pages  
-  - Per-post pages with title, content and publication date  
-  - Site-wide header with search functionality  
-  - Footer with copyright and tech stack credit  
-
-- **Admin Panel**  
-  - Secure login for administrators  
-  - Create, edit and delete posts via a WYSIWYG editor  
-  - Form validation (title, content, date)  
-  - Live preview of new or updated posts 
-
-# 🔒 Environment Variables
-
-PORT=3000 <br/>
-MONGODB_URI=your_mongo_connection_string <br/>
-JWT_SECRET=some_secure_secret <br/>
+-   Mongoose for MongoDB ODM <br/>
+-   Passport.js (Local strategy) <br/>
+-   express-session + connect-mongo for session persistence <br/>
+-   dotenv for config <br/>
+-   express-validator for request validation <br/>
+-   nodemon for development hot reload <br/>
 
 🔐 Admin Panel
 - Visit http://localhost:3000/admin/login
