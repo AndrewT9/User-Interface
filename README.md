@@ -1,4 +1,4 @@
-# NodeJs Blog & Admin Panel
+# User Interface
 
 A simple content‐driven blog platform built with Node.js, Express and MongoDB, featuring:
 -   Mongoose for MongoDB ODM <br/>
@@ -7,11 +7,6 @@ A simple content‐driven blog platform built with Node.js, Express and MongoDB,
 -   dotenv for config <br/>
 -   express-validator for request validation <br/>
 -   nodemon for development hot reload <br/>
-
-🔐 Admin Panel
-- Visit http://localhost:3000/admin/login
-- Log in with the credentials from your .env
-- Manage posts: create new articles, edit existing ones, or delete outdated content
 
 # 🚀 Getting Started
 
